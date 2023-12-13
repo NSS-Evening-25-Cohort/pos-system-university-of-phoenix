@@ -1,0 +1,68 @@
+{
+  "-MiBsfuTYupEQ7eAULxV": {
+  "firebaseKey": "-MiBsfuTYupEQ7eAULxV",
+  "order_name": "Jaida Doe",
+  "customer_id": "",
+  "order_status": "Ready for pickup",
+  "order_type": "phone",
+  "payment_type": "debit/credit",
+  "order_date": "11/29/2023",
+  "tip_amount": "$5.00",
+  "order_total": "$15.76"
+},
+  "-Mity98VzkC-EGmJnxjm": {
+    "firebaseKey": "-Mity98VzkC-EGmJnxjm",
+    "order_name": "Jackie Fuller",
+    "customer_id": "",
+    "order_status": "Ready for pickup",
+    "order_type": "phone",
+    "payment_type": "debit/credit",
+    "order_date": "12/2/2023",
+    "tip_amount": "$0",
+    "order_total": "$13.89"
+  },
+  "-MiwtBf1BwN9pGavQeR4": {
+    "firebaseKey": "-MiwtBf1BwN9pGavQeR4",
+    "order_name": "Ashley Brookes",
+    "customer_id": "",
+    "order_status": "Pending",
+    "order_type": "phone",
+    "payment_type": "cash",
+    "order_date": "12/12/2023",
+    "tip_amount": "$10.00",
+    "order_total": "$48.12"
+  },
+  "-MiBuOfHv9NCKB_kiopl": {
+    "firebaseKey": "-MiBuOfHv9NCKB_kiopl",
+    "order_name": "Zion Williamson",
+    "customer_id": "",
+    "order_status": "Ready for pickup",
+    "order_type": "in person",
+    "payment_type": "cash",
+    "order_date": "12/6/2023",
+    "tip_amount": "$100.00",
+    "order_total": "$400.00"
+  },
+  "-MiBulenIoP8by9Xn7q2": {
+    "firebaseKey": "-MiBulenIoP8by9Xn7q2",
+    "order_name": "Tion Blackmon",
+    "customer_id": "",
+    "order_status": "Preparing",
+    "order_type": "in person",
+    "payment_type": "cash",
+    "order_date": "12/8/2023",
+    "tip_amount": "$6.00",
+    "order_total": "$28.53"
+  },
+  "-MiBv9_aOEPOWoobjz_U": {
+    "firebaseKey": "-MiBv9_aOEPOWoobjz_U",
+    "order_name": "Tiffany Jackson",
+    "customer_id": "",
+    "order_status": "Ready for pickup",
+    "order_type": "phone",
+    "payment_type": "cash",
+    "order_date": "12/4/2023",
+    "tip_amount": "$3.00",
+   "order_total": "$12.68"
+  }
+}
