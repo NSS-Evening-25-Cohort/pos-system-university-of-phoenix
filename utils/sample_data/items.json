@@ -1,71 +1,71 @@
 {
   "-NlVa2Sbu0vgKCVVjwrd": {
-    "firebase_key": null,
-    "item_name": "Rice - Wild",
-    "item_price": null,
+    "firebase_key": "-NlVa2Sbu0vgKCVVjwrd",
+    "item_name": "Hip Hop Horronni",
+    "item_price": 16.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2Sc73Vxlcxv0NVg": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2Sc73Vxlcxv0NVg",
     "item_name": "Sugar - Brown, Individual",
-    "item_price": null,
+    "item_price": 17.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2Sc73Vxlcxv0NVh": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2Sc73Vxlcxv0NVh",
     "item_name": "Appetizer - Mango Chevre",
-    "item_price": null,
+    "item_price": 18.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2Sd9XJyv33_cRAC": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2Sd9XJyv33_cRAC",
     "item_name": "Beef - Eye Of Round",
-    "item_price": null,
+    "item_price": 19.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2Sd9XJyv33_cRAD": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2Sd9XJyv33_cRAD",
     "item_name": "Crush - Orange, 355ml",
-    "item_price": null,
+    "item_price": 20.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2SeX7ueQ3-QD8M_": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2SeX7ueQ3-QD8M_",
     "item_name": "Tea - Honey Green Tea",
-    "item_price": null,
+    "item_price": 21.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2Sfpoj3Rf2wjXds": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2Sfpoj3Rf2wjXds",
     "item_name": "Beef - Outside, Round",
-    "item_price": null,
+    "item_price": 22.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2Sfpoj3Rf2wjXdt": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2Sfpoj3Rf2wjXdt",
     "item_name": "Water - Perrier",
-    "item_price": null,
+    "item_price": 23.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2SgUN23o-IFRN6M": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2SgUN23o-IFRN6M",
     "item_name": "Water - Green Tea Refresher",
-    "item_price": null,
+    "item_price": 24.99,
     "item_quantity ": null,
     "order_Id": null
   },
   "-NlVa2SgUN23o-IFRN6N": {
-    "firebase_key": null,
+    "firebase_key": "-NlVa2SgUN23o-IFRN6N",
     "item_name": "Eggplant - Regular",
-    "item_price": null,
+    "item_price": 26.99,
     "item_quantity ": null,
     "order_Id": null
   }
