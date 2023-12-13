@@ -1,0 +1,25 @@
+{"CustomerA":
+  {"firebasekey": "",
+  "customer_phone":"555.555.5555",
+  "customer_email":"Aemail@email.com",
+  "customer_name":"Jim James"},
+
+
+  "CustomerB":
+  {"firebasekey": "",
+  "customer_phone":"555.555.5551",
+  "customer_email":"Bemail@email.com",
+  "customer_name":"Bill Brown"},
+
+  "CustomerC":
+  {"firebasekey": "",
+  "customer_phone":"555.555.5552",
+  "customer_email":"Cemail@email.com",
+  "customer_name":"Jeff Jefferson"},
+
+  "CustomerD":
+  {"firebasekey": "",
+  "customer_phone":"555.555.5553",
+  "customer_email":"Demail@email.com",
+  "customer_name":"Charles Clancy"}
+}
