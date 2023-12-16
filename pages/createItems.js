@@ -13,7 +13,7 @@ const createEditItem = (obj = {}) => {
         <input type="text" class="form-control" id="price" placeholder="Item Price" value="${obj.price || ''}" required>
       </div>
   </div>`;
-  renderToDOM('form-container', domString);
+  renderToDOM('#form-container', domString);
 };
 
 export default createEditItem;
