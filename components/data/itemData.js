@@ -3,7 +3,7 @@ import client from '../../utils/client';
 const endpoint = client.databaseURL;
 
 const getItems = () => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/items.json`, {
+  fetch(`${endpoint}/item.json`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
@@ -21,7 +21,7 @@ const getItems = () => new Promise((resolve, reject) => {
 });
 
 const createItem = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/items.json`, {
+  fetch(`${endpoint}/item.json`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ const createItem = (payload) => new Promise((resolve, reject) => {
 });
 
 const updateItem = (payload) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/items/${payload.firebaseKey}.json`, {
+  fetch(`${endpoint}/item/${payload.firebaseKey}.json`, {
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ const updateItem = (payload) => new Promise((resolve, reject) => {
 });
 
 const deleteItem = (firebaseKey) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/items/${firebaseKey}.json`, {
+  fetch(`${endpoint}/item/${firebaseKey}.json`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ const deleteItem = (firebaseKey) => new Promise((resolve, reject) => {
 });
 
 const getSingleItem = (firebaseKey) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/items/${firebaseKey}.json`, {
+  fetch(`${endpoint}/item/${firebaseKey}.json`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
