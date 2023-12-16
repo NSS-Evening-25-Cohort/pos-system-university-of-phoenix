@@ -1,5 +1,5 @@
 import getOrderCustomerData from '../api/mergedData';
-import { viewOrder } from '../pages/viewOrders';
+import viewOrder from '../pages/viewOrders';
 // import closeOrder from '../pages/closeOrder';
 // import createEditItem from '../pages/createItems';
 

@@ -1,17 +1,16 @@
-import { getSingleCustomer } from './customerData';
-import { getOrder } from './orderData';
-
-const getOrderCustomerData = () => new Promise((resolve, reject) => {
-  const mergedArray = [];
-  getOrder().then((orderObjects) => {
-    orderObjects.forEach((order) => {
-      getSingleCustomer(order.customer_id)
-        .then((customerObject) => {
-          const mergedObject = { ...order, ...customerObject };
-          mergedArray.push(mergedObject);
-        });
-    });
-    resolve(mergedArray);
+import { getAllCustomers } from './customerData';
+import { getAllOrders } from './orderData';
+// TODO#1 get all orders
+// TODO#2 get all customers
+// TODO#3 filter by customer_id
+// TODO#4 Append data to create new object
+const getOrderByCustomerData = () => new Promise((resolve, reject) => {
+  getAllCustomers().then((orderObjects) => {
+    getAllOrders()
+      .then((customerOrderObjects) => resolve(
+        { ...orderObjects, customerOrderObjects }
+      ));
   }).catch(reject);
 });
-export default getOrderCustomerData;
+
+export default getOrderByCustomerData;
