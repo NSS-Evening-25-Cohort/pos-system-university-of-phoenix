@@ -15,7 +15,7 @@ const itemForm = (obj = {}) => {
         <input type="text" class="form-control" id="price" placeholder="Item Price" value="${obj.price || ''}" required>
       </div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit Item
+    <button type="submit" class="btn btn-primary">Add/Edit Item
     </button>
   </form>`;
   renderToDOM('#form-container', domString);
