@@ -1,4 +1,5 @@
 import { createItem, getItems, updateItem } from '../components/data/itemData';
+import { showItems } from '../pages/orderDetails';
 
 const formEvents = () => {
   document.querySelector('#main-container').addEventListener('submit', (e) => {
@@ -11,7 +12,7 @@ const formEvents = () => {
       createItem(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
         updateItem(patchPayload).then(() => {
-          getItems().then(); // need a "showBooks" or "showItems" here to show on DOM
+          getItems().then(showItems);
         });
       });
     }

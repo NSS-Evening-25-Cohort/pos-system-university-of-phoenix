@@ -14,6 +14,7 @@ const createEditItem = (obj = {}) => {
         <label for="price">Item Price</label>
         <input type="text" class="form-control" id="price" placeholder="Item Price" value="${obj.price || ''}" required>
       </div>
+      <div id="${order_id}"></div>
     </div>
     <button type="submit" class="btn btn-primary">Submit Item
     </button>
