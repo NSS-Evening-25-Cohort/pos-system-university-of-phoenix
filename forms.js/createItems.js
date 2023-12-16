@@ -8,7 +8,7 @@ const createEditItem = (obj = {}) => {
     <div>
       <div class="form-group">
         <label for="price">Item Name</label>
-        <input type="text" class="form-control" id="item_name" placeholder="Item Name" value="${obj.price || ''}" required>
+        <input type="text" class="form-control" id="item_name" placeholder="Item Name" value="${obj.name || ''}" required>
       </div>
       <div class="form-group">
         <label for="price">Item Price</label>
