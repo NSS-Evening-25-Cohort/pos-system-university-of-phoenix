@@ -12,7 +12,7 @@ const viewOrder = () => {
 <ul class="list-group list-group-flush">
   <li class="list-group-item"></li>
   <li class="list-group-item"></li>
-  <li class="list-group-item">A third item</li>
+  <li class="list-group-item"></li>
 </ul>
 <div class="card-body">
   <a href="#" class="card-link">Card link</a>

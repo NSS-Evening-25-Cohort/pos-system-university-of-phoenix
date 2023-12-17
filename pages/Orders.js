@@ -1,10 +1,11 @@
-import getOrderByCustomerData from '../api/mergedData';
 import clearDom from '../utils/clearDom';
 import renderToDOM from '../utils/renderToDom';
+import getOrderByCustomerData from '../api/mergedData';
 
 const showOrders = (array) => {
-  clearDom();
   getOrderByCustomerData();
+  console.warn(array);
+  clearDom();
 
   let domString = '';
   array.forEach((item) => {
@@ -18,6 +19,7 @@ const showOrders = (array) => {
       <a href="#" class="card-link">Delete</a>
       <a href="#" class="card-link">Edit</a>
       <a href="#" class="card-link">Details</a>
+      <button id="view_order" type="button" class="btn btn-danger">Danger</button>
     </div>
   </div>`;
   });

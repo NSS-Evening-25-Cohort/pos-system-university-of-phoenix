@@ -4,14 +4,13 @@ import navBar from '../shared/navBar';
 import domEvents from '../events/domEvents';
 // import formEvents from '../events/formEvents';
 // import navigationEvents from '../events/navigationEvents';
-import { getAllOrders } from '../api/orderData';
 import showOrders from '../pages/Orders';
-// import { getOrder } from '../api/orderData';
+import { getAllOrders } from '../api/orderData';
 
 const startApp = () => {
-  getAllOrders().then(showOrders);
   domBuilder();
   domEvents();
+  getAllOrders().then(showOrders);
   // formEvents();
   navBar();
   logoutButton();

@@ -6,8 +6,7 @@ import viewOrder from '../pages/viewOrders';
 const domEvents = () => {
   document.querySelector('#view').addEventListener('click', (e) => {
     if (e.target.id.includes('view-order-btn')) {
-      const [, firebaseKey] = e.target.id.split('--');
-      getOrderCustomerData(firebaseKey).then(viewOrder);
+      getOrderCustomerData().then(viewOrder);
     }
   });
 };
