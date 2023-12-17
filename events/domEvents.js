@@ -1,13 +1,12 @@
-import getOrderCustomerData from '../api/mergedData';
-import { viewOrder } from '../pages/viewOrders';
+import { getAllOrders } from '../api/orderData';
+import showOrders from '../pages/Orders';
 // import closeOrder from '../pages/closeOrder';
 // import createEditItem from '../pages/createItems';
 
 const domEvents = () => {
-  document.querySelector('#view').addEventListener('click', (e) => {
-    if (e.target.id.includes('view-order-btn')) {
-      const [, firebaseKey] = e.target.id.split('--');
-      getOrderCustomerData(firebaseKey).then(viewOrder);
+  document.querySelector('#store').addEventListener('click', (e) => {
+    if (e.target.id.includes('view_order')) {
+      getAllOrders().then(showOrders);
     }
   });
 };
