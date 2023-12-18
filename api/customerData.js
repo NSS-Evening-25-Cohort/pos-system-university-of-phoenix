@@ -2,7 +2,7 @@ import client from '../utils/client';
 
 const endpoint = client.databaseURL;
 
-const getCustomer = () => new Promise((resolve, reject) => {
+const getAllCustomers = () => new Promise((resolve, reject) => {
   fetch(`${endpoint}/customer.json`, {
     method: 'GET',
     headers: {
@@ -26,4 +26,4 @@ const getSingleCustomer = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export { getCustomer, getSingleCustomer };
+export { getAllCustomers, getSingleCustomer };
