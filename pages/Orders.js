@@ -16,18 +16,16 @@ const showOrders = (array) => {
         <div class="card-body">
           <h5 class="card-title">${order.order_name}</h5>
           <h6 class="card-subtitle mb-2 text-body-secondary">Status: ${order.order_status}</h6>
-          <p class="card-text">Phone: ${customer.first_name} </p>
-          <p class="card-text">Email:</p>
-          <p class="card-text"> In person/Phone : ${order.order_type}</p>
+          <p class="card-text">Phone: ${customer.customer_phone} </p>
+          <p class="card-text">Email: ${customer.customer_email}</p>
+          <p class="card-text"> Order Type : ${order.order_type}</p>
           <a href="#" class="card-link">Delete</a>
           <a href="#" class="card-link">Edit</a>
           <a href="#" class="card-link">Details</a>
-          <button id="view_order" type="button" class="btn btn-danger">Danger</button>
         </div>
       </div>`;
       renderAllOrderCards(domString);
     });
-    // renderToDOM('#store', domString);
   });
 };
 
