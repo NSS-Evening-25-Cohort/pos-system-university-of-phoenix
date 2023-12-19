@@ -19,12 +19,13 @@ const showOrders = (array) => {
           <p class="card-text">Phone: ${customer.customer_phone} </p>
           <p class="card-text">Email: ${customer.customer_email}</p>
           <p class="card-text"> Order Type : ${order.order_type}</p>
-          <button type="button" class="btn btn-danger">Delete</button>
-          <button type="button" class="btn btn-success">Edit</button>
-          <button type="button" class="btn btn-info">Details</button>
+          <button type="button" id="delete-order" class="btn btn-danger">Delete</button>
+          <button type="button" id="edit-order" class="btn btn-success">Edit</button>
+          <button type="button" id="details-item" class="btn-info"btn >Details</button>
         </div>
       </div>`;
       renderAllOrderCards(domString);
+      //this is a change
     });
   });
 };
