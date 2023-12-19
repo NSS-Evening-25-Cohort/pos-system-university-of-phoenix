@@ -24,5 +24,6 @@ const showItems = (array) => {
     renderAllItemCards(domString);
   });
 };
+// this is fuctioning
 
 export default showItems;
