@@ -18,7 +18,7 @@ const itemForm = (obj = {}) => {
     <button type="submit" class="btn btn-primary">Submit Item
     </button>
   </form>`;
-  renderToDOM('#main-container', domString);
+  renderToDOM('#form-container', domString);
 };
 
 export default itemForm;
