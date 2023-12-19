@@ -12,14 +12,14 @@ const closeOrder = (obj = {}) => {
     </a>
   
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="#" id="cash">Cash</a>
-      <a class="dropdown-item" href="#" id="credit">Credit</a>
-      <a class="dropdown-item" href="#" id="mobile">Mobile</a>
+      <a class="dropdown-item" href="#" id="cash">cash</a>
+      <a class="dropdown-item" href="#" id="debit/credit">debit/credit</a>
+      <a class="dropdown-item" href="#" id="mobile">mobile</a>
     </div>
   </div>
       <div class="form-group">
         <label for="image">Last Name</label>
-        <input type="text" class="form-control" id="last_name" placeholder="Tip Amount" value="${obj.tip || ''}" required>
+        <input type="text" class="form-control" id="last_name" placeholder="Tip Amount" value="${obj.tip_amount || ''}" required>
       </div>
       <button type="submit" class="btn btn-primary mt-3">Close Order</button>
     </form>`;

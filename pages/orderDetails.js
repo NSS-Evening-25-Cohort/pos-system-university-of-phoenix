@@ -18,6 +18,7 @@ const showItems = (array) => {
       <div class="card">
         <div class="card-body" style="height: 180px;">
           <h5 class="card-title">${item.name}</h5>
+          <h3>${item.price}</h3>
             <hr>
             <i id="edit-item-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info">Edit Item</i>
             <i id="delete-item-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt">Delete Item</i>
