@@ -10,7 +10,6 @@ const domEvents = () => {
       getAllOrders().then(showOrders);
     }
     if (e.target.id.includes('newOrder')) {
-      console.warn('clicky');
       editOrderForm();
     }
   });
