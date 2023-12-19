@@ -8,8 +8,7 @@ const emptyItems = () => {
 
 const showItems = (array) => {
   clearDom();
-  const domString = //backticks;
-  
+  const domString = ``
     domString += `
       <div class="card">
         <div class="card-body" style="height: 180px;">
