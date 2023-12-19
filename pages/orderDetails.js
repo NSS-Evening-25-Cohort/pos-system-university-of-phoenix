@@ -6,15 +6,9 @@ const emptyItems = () => {
   renderToDOM('#store', domString);
 };
 
-const showItems = (array) => {
+const showItems = (item) => {
   clearDom();
-
-  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-book-btn">Add an Item</button>';
-  renderToDOM('#add-button', btnString);
-
-  let domString = '';
-  array.forEach((item) => {
-    domString += `
+  const domString = `
       <div class="card">
         <div class="card-body" style="height: 180px;">
           <h5 class="card-title">${item.name}</h5>
@@ -25,7 +19,7 @@ const showItems = (array) => {
             
         </div>
       </div>`;
-  });
+
   renderToDOM('#store', domString);
 };
 
