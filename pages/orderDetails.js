@@ -8,12 +8,8 @@ const emptyItems = () => {
 
 const showItems = (array) => {
   clearDom();
-
-  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-book-btn">Add an Item</button>';
-  renderToDOM('#add-button', btnString);
-
-  let domString = '';
-  array.forEach((item) => {
+  const domString = //backticks;
+  
     domString += `
       <div class="card">
         <div class="card-body" style="height: 180px;">
@@ -25,7 +21,7 @@ const showItems = (array) => {
             
         </div>
       </div>`;
-  });
+  
   renderToDOM('#store', domString);
 };
 
