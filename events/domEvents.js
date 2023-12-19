@@ -5,7 +5,7 @@ import showOrders from '../pages/Orders';
 
 const domEvents = () => {
   document.querySelector('#store').addEventListener('click', (e) => {
-    if (e.target.id.includes('view_order')) {
+    if (e.target.id.includes('allOrders')) {
       getAllOrders().then(showOrders);
     }
   });
