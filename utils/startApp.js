@@ -10,11 +10,11 @@ import { getAllOrders } from '../api/orderData';
 const startApp = () => {
   domBuilder();
   domEvents();
-  getAllOrders().then(showOrders);
   formEvents();
   navBar();
   logoutButton();
   navigationEvents();
+  getAllOrders().then(showOrders);
 };
 
 export default startApp;
