@@ -12,8 +12,8 @@ const startApp = () => {
   homeScreen();
   formEvents();
   navBar();
-  logoutButton();
   navigationEvents();
+  logoutButton();
 };
 
 export default startApp;

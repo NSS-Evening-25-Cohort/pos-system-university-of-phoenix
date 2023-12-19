@@ -11,7 +11,6 @@ const domEvents = () => {
       getAllOrders().then(showOrders);
     }
     if (e.target.id.includes('newOrder')) {
-      console.warn('clicky');
       editOrderForm();
     }
     if (e.target.id.includes('delete-item-btn')) {
