@@ -1,5 +1,5 @@
 import { createItem, getItems, updateItem } from '../api/itemData';
-import { showItems } from '../pages/orderDetails';
+import showItems from '../pages/orderDetails';
 
 const formEvents = () => {
   document.querySelector('#form-container').addEventListener('submit', (e) => {

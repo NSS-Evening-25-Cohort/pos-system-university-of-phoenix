@@ -1,17 +1,19 @@
 import clearDom from '../utils/clearDom';
 import renderToDOM from '../utils/renderToDom';
 
-const emptyItems = () => {
-  const domString = '<h1>!!!No Items!!!</h1>';
-  renderToDOM('#store', domString);
-};
-
-const showItems = (item) => {
+const showItems = (array) => {
   clearDom();
-  const domString = `
+  const renderAllItemCards = (domStringTwo) => {
+    renderToDOM('#view', domStringTwo);
+  };
+
+  let domString = '';
+  array.forEach((item) => {
+    domString
+      += `
       <div class="card">
         <div class="card-body" style="height: 180px;">
-          <h5 class="card-title">${item.name}</h5>
+          <h5 class="card-title">${item.item_name}</h5>
           <h3>${item.price}</h3>
             <hr>
             <i id="edit-item-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info">Edit Item</i>
@@ -19,8 +21,8 @@ const showItems = (item) => {
             
         </div>
       </div>`;
-
-  renderToDOM('#store', domString);
+    renderAllItemCards(domString);
+  });
 };
 
-export { showItems, emptyItems };
+export default showItems;
