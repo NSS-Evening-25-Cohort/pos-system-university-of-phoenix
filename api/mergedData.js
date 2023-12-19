@@ -1,5 +1,5 @@
 import { getAllCustomers } from './customerData';
-import { getAllOrders } from './orderData';
+import { deleteSingleOrder, getAllOrders, getSingleOrder } from './orderData';
 
 const getOrderByCustomerData = () => new Promise((resolve, reject) => {
   getAllCustomers().then((orderObjects) => {
@@ -10,4 +10,14 @@ const getOrderByCustomerData = () => new Promise((resolve, reject) => {
   }).catch(reject);
 });
 
-export default getOrderByCustomerData;
+const deleteOrderItemRelationship = (firebaseKey) => new Promise((resolve, reject) => {
+  getSingleOrder(firebaseKey).then((customerOrderArray) => {
+    const deleteOrderPromises = customerOrderArray.map((order) => deleteSingleOrder(order.firebaseKey));
+
+    Promise.all(deleteOrderPromises).then(() => {
+      (firebaseKey).then(resolve);
+    });
+  }).catch(reject);
+});
+
+export { getOrderByCustomerData, deleteOrderItemRelationship };
