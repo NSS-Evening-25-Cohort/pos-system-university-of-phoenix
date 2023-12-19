@@ -1,72 +1,72 @@
 {
   "-NlVa2Sbu0vgKCVVjwrd": {
     "firebase_key": "-NlVa2Sbu0vgKCVVjwrd",
-    "item_name": "Hip Hop Horronni",
+    "item_name": "MF Deep Dish",
     "item_price": 16.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 16,
+    "order_Id": 1
   },
   "-NlVa2Sc73Vxlcxv0NVg": {
     "firebase_key": "-NlVa2Sc73Vxlcxv0NVg",
-    "item_name": "Sugar - Brown, Individual",
+    "item_name": "Wu-Tang Pan Pizza",
     "item_price": 17.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 10
   },
   "-NlVa2Sc73Vxlcxv0NVh": {
     "firebase_key": "-NlVa2Sc73Vxlcxv0NVh",
-    "item_name": "Appetizer - Mango Chevre",
+    "item_name": "A Tribe Called Crust",
     "item_price": 18.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 2
   },
   "-NlVa2Sd9XJyv33_cRAC": {
     "firebase_key": "-NlVa2Sd9XJyv33_cRAC",
-    "item_name": "Beef - Eye Of Round",
+    "item_name": "Luda Crust",
     "item_price": 19.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 3
   },
   "-NlVa2Sd9XJyv33_cRAD": {
     "firebase_key": "-NlVa2Sd9XJyv33_cRAD",
-    "item_name": "Crush - Orange, 355ml",
+    "item_name": "Anndre 3000 Degree oven Pizza",
     "item_price": 20.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 4
   },
   "-NlVa2SeX7ueQ3-QD8M_": {
     "firebase_key": "-NlVa2SeX7ueQ3-QD8M_",
-    "item_name": "Tea - Honey Green Tea",
+    "item_name": "Wacka Flocka Wings",
     "item_price": 21.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 5
   },
   "-NlVa2Sfpoj3Rf2wjXds": {
     "firebase_key": "-NlVa2Sfpoj3Rf2wjXds",
-    "item_name": "Beef - Outside, Round",
+    "item_name": "LouWill Lemon Pepper Lil' Chicken Wings",
     "item_price": 22.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 6
   },
   "-NlVa2Sfpoj3Rf2wjXdt": {
     "firebase_key": "-NlVa2Sfpoj3Rf2wjXdt",
-    "item_name": "Water - Perrier",
+    "item_name": "Puff Daddy Perrier",
     "item_price": 23.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 7
   },
   "-NlVa2SgUN23o-IFRN6M": {
     "firebase_key": "-NlVa2SgUN23o-IFRN6M",
-    "item_name": "Water - Green Tea Refresher",
+    "item_name": "A$AP Rocky Road Ice Cream",
     "item_price": 24.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 8
   },
   "-NlVa2SgUN23o-IFRN6N": {
     "firebase_key": "-NlVa2SgUN23o-IFRN6N",
-    "item_name": "Eggplant - Regular",
+    "item_name": "Iced Spice Sweet Tea",
     "item_price": 26.99,
-    "item_quantity ": null,
-    "order_Id": null
+    "item_quantity ": 1,
+    "order_Id": 9
   }
 }
