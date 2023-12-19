@@ -3,7 +3,7 @@ import domBuilder from '../shared/domBuilder';
 import navBar from '../shared/navBar';
 import domEvents from '../events/domEvents';
 import formEvents from '../events/formEvents';
-// import navigationEvents from '../events/navigationEvents';
+import navigationEvents from '../events/navigationEvents';
 import showOrders from '../pages/Orders';
 import { getAllOrders } from '../api/orderData';
 
@@ -14,7 +14,7 @@ const startApp = () => {
   formEvents();
   navBar();
   logoutButton();
-  // navigationEvents();
+  navigationEvents();
 };
 
 export default startApp;
