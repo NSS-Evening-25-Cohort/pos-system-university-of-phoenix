@@ -1,4 +1,4 @@
-import { createItem, getItems, updateItem } from '../components/data/itemData';
+import { createItem, getItems, updateItem } from '../api/itemData';
 import { showItems } from '../pages/orderDetails';
 
 const formEvents = () => {
