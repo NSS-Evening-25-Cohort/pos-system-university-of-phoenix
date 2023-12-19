@@ -25,7 +25,7 @@ const showOrders = (array) => {
         </div>
       </div>`;
       renderAllOrderCards(domString);
-      //this is a change
+      // this is a change
     });
   });
 };

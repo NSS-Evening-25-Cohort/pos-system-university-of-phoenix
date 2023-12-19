@@ -6,11 +6,9 @@ const emptyItems = () => {
   renderToDOM('#store', domString);
 };
 
-const showItems = (array) => {
+const showItems = (item) => {
   clearDom();
-  const domString = //backticks;
-  
-    domString += `
+  const domString = `
       <div class="card">
         <div class="card-body" style="height: 180px;">
           <h5 class="card-title">${item.name}</h5>
@@ -21,7 +19,7 @@ const showItems = (array) => {
             
         </div>
       </div>`;
-  
+
   renderToDOM('#store', domString);
 };
 
