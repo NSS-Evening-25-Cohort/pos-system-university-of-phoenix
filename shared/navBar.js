@@ -2,9 +2,10 @@ import renderToDOM from '../utils/renderToDom';
 
 const navBar = () => {
   const domString = `
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-5">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-5"
+    id="navBarr">
     <div class="container-fluid">
-        <a class="navbar-brand title" href="#" id="logo_btn">LOGO!!!</a>
+        <a class="navbar-brand title" href="#" id="logo_btn">HOME!!!</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>

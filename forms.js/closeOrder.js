@@ -23,7 +23,7 @@ const closeOrder = (obj = {}) => {
       </div>
       <button type="submit" class="btn btn-primary mt-3">Close Order</button>
     </form>`;
-  renderToDOM('#view', domString);
+  renderToDOM('#form-container', domString);
 };
 
 export default closeOrder;

@@ -1,8 +1,8 @@
-import { createItem, getItems, updateItem } from '../components/data/itemData';
+import { createItem, getItems, updateItem } from '../api/itemData';
 import { showItems } from '../pages/orderDetails';
 
 const formEvents = () => {
-  document.querySelector('#main-container').addEventListener('submit', (e) => {
+  document.querySelector('#form-container').addEventListener('submit', (e) => {
     e.preventDefault();
     if (e.target.dispatchEvent.includes('submit-item')) {
       const payload = {
