@@ -12,7 +12,7 @@ const showOrders = (array) => {
   array.forEach((order) => {
     getSingleCustomer(order.customer_id).then((customer) => {
       domString
-          += `<div class="card" style="width: 18rem;">
+          += `<div class="card" style="width: 18rem;" id="card">
         <div class="card-body">
           <h5 class="card-title">${order.order_name}</h5>
           <h6 class="card-subtitle mb-2 text-body-secondary">Status: ${order.order_status}</h6>

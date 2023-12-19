@@ -5,7 +5,7 @@ const navBar = () => {
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-5"
     id="navBarr">
     <div class="container-fluid">
-        <a class="navbar-brand title" href="#" id="logo_btn">HOME!!!</a>
+        <a class="navbar-brand title" href="#" id="logo_btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2fd9x8UAoP0FcGUePMYVwP3xVypevr22aqA&usqp=CAU"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
