@@ -6,7 +6,9 @@ const homeScreen = () => {
 
   const domString = `<h1>Welcome User</h1>
   <div id="home_btns">
-  <button id="allOrders" class="btn btn-success">View All Orders</button>
+  <button id="allOrders" class="btn btn-success">View All Orders</button><br>
+  <button id="newOrder" class="btn btn-info">Create an Order</button><br>
+  <button id="newOrder" class="btn btn-warning">View Revenue</button>
   </div>`;
   renderToDOM('#store', domString);
 };
