@@ -8,7 +8,7 @@ const homeScreen = () => {
   <div id="home_btns">
   <button id="allOrders" class="btn btn-success">View All Orders</button><br>
   <button id="newOrder" class="btn btn-info">Create an Order</button><br>
-  <button id="newOrder" class="btn btn-warning">View Revenue</button>
+  <button id="viewRev" class="btn btn-warning">View Revenue</button>
   </div>`;
   renderToDOM('#store', domString);
 };
