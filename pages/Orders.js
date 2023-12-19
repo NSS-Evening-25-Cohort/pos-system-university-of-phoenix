@@ -19,9 +19,9 @@ const showOrders = (array) => {
           <p class="card-text">Phone: ${customer.customer_phone} </p>
           <p class="card-text">Email: ${customer.customer_email}</p>
           <p class="card-text"> Order Type : ${order.order_type}</p>
-          <a href="#" class="card-link">Delete</a>
-          <a href="#" class="card-link">Edit</a>
-          <a href="#" class="card-link">Details</a>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-success">Edit</button>
+          <button type="button" class="btn btn-info">Details</button>
         </div>
       </div>`;
       renderAllOrderCards(domString);
