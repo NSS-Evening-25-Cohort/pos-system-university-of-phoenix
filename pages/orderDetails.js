@@ -8,17 +8,18 @@ const showItems = (array) => {
   };
 
   let domString = '';
-  array.forEach((item) => {
+  array.forEach((order) => {
     domString
-      += `
-      <div class="card">
-        <div class="card-body" style="height: 180px;">
-          <h5 class="card-title">${item.item_name}</h5>
-          <h3>${item.price}</h3>
-            <hr>
-            <i id="edit-item-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info">Edit Item</i>
-            <i id="delete-item-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt">Delete Item</i>
-            
+          += `<div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+          <p class="card-text"> ${order.item_name} </p>
+          <p class="card-text"> ${order.item_price}</p>
+          <p class="card-text">  </p>
+          <button type="button" id="delete-order" class="btn btn-danger">Delete</button>
+          <button type="button" id="edit-order" class="btn btn-success">Edit</button>
+          <button type="button" id="details-item" class="btn-info"btn >Details</button>
         </div>
       </div>`;
     renderAllItemCards(domString);
